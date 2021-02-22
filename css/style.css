@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --yellow: #FEC63E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    padding: 10px;
+    width: 100vw;
+    background-color: var(--yellow);
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container nav ul {
+    display: flex;
+}
+
+.header-container nav ul li {
+    list-style-type: none;
+
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+
+    margin-left: 20px;
+}
+
+.header-container nav ul li > a {
+    text-decoration: none;
+
+    color: #000;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    height: 380px;
+
+    background-image: url(../img/fotos/mesa-trabalho.jpg);
+    background-size: 100% 100%;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-main h1 {
+    margin: 80px 0 12px 0;
+
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #fff;
+}
+
+.container-main hr {
+    width: 80px;
+    border: 2px solid #fff;
+}
+
+.container-main p {
+    width: 320px;
+    margin: 12px;
+    
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    text-align: center;
+
+    color: #fff;
+}
+
+.container-main h3 {
+    margin-top: 12px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+
+    color: #fff;
+}
+
+.container-main span {
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+
+    border: 3px solid var(--yellow);
+    padding: 12px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+
+    color: var(--yellow);
+}
+
+/* PRODUTOS */
+
+.produtos {
+    padding-top: 60px;
+}
+
+.produtos h2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    
+    text-align: center;
+}
+
+.produtos hr {
+    margin: 0 auto;
+    width: 80px;
+    border: 2px solid #000;
+}
+
