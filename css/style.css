@@ -108,8 +108,8 @@ main {
     color: #fff;
 }
 
-.container-main span {
-    margin-top: 30px;
+.btn-action {
+    margin-top: 13px;
     width: 160px;
     height: 40px;
 
@@ -129,7 +129,7 @@ main {
     color: var(--yellow);
 }
 
-.container-main span:hover {
+.btn-action:hover {
     cursor: pointer;
     background-color: #FEC63E;
     color: #fff;
@@ -171,35 +171,6 @@ main {
     text-align: center;
 }
 
-.container-produtos span {
-    margin-top: 13px;
-    width: 160px;
-    height: 40px;
-
-    border: 3px solid var(--yellow);
-    padding: 12px 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.7px;
-
-    color: var(--yellow);
-
-}
-
-.container-produtos span:hover {
-    cursor: pointer;
-    background-color: #FEC63E;
-    color: #fff;
-
-    transition: .3s;
-}
 /* CARD */
 
 .produtos-card {
@@ -242,7 +213,7 @@ main {
 }
 
 .card-content p {
-    font-family: "Noto serif", sans-serif;
+    font-family: "Noto Serif", sans-serif;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -276,4 +247,37 @@ main {
     margin: 0 auto;
     width: 80px;
     border: 2px solid var(--yellow);
+}
+
+.container-portifolio p {
+    margin-top: 20px;
+    font-family: "Noto Serif",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    text-align: center;
+    color: #fff;
+}
+
+.container-portifolio span {
+    margin: 13px auto 0;
+}
+
+.portifolio-imagens {
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.portifolio-imagens img {
+    width: 100%;
+    height: 280px;
+}
+.portifolio-imagens img:nth-child(3) {
+    grid-column: 1 / 3;
+    grid-row: 2;  
 }
