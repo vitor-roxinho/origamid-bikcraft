@@ -269,7 +269,7 @@ main {
 }
 
 .portifolio-imagens {
-    margin-top: 60px;
+    margin-top: 40px;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -294,7 +294,7 @@ main {
     flex-direction: column;
 }
 .container-qualidades h2 {
-    padding-top: 60px;
+    padding-top: 40px;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
@@ -336,19 +336,75 @@ main {
 }
 
 .qualidades-lista ul li p {
-    padding-top: 10px;
+    padding-top: 16px;
+
     font-family: "Noto Serif",sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
 }
 
-.container-qualidades p {
+.container-qualidades > p {
     margin-top: 20px;
+
     font-family: "Noto Serif",sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
 
     text-align: center;
+}
+
+/* QUOTE-HOME */
+
+.quote {
+    margin-top: 60px;
+
+    width: 100%;
+    height: 220px;
+
+    background-image: url(../img/fotos/bg-quote.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 220px
+}
+
+.container-quote hr{
+    width: 80px;
+    border: 2px solid #fff;
+}
+
+.container-quote > p {
+    width: 475px;
+    padding: 12px 0;
+
+    font-family: "Noto Serif",  sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-weight: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #fff;
+}
+
+
+.container-quote h3 {
+    margin-top: 12px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+
+    color: #fff;
 }
