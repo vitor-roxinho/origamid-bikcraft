@@ -408,3 +408,95 @@ main {
 
     color: #fff;
 }
+
+/* FOOTER */
+
+.rodape {
+    width: 100%;
+    background-color: #000;
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-rodape h2 {
+    padding-top: 24px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+
+    color: var(--yellow);
+}
+
+.container-rodape hr {
+    width: 80px;
+    border: 2px solid var(--yellow);
+}
+
+.rodape__nossa-historia{
+    width: 400px;
+}
+
+.rodape__nossa-historia p {
+    padding: 20px 0;
+
+    font-family: "Noto Serif", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #fff;
+}
+
+.rodape__contato ul {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Noto Serif", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #fff;
+}
+
+.rodape__contato ul li {
+    padding-top: 3px;
+}
+
+.container-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.container-redes-sociais img {
+    border: 3px solid var(--yellow);
+
+    padding: 20px;
+}
+
+
+.rodape-direitos {
+    width: 100%;
+    background-color: var(--yellow);
+}
+
+.container-direitos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container-direitos p {
+    font-family: "Noto Serif", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
