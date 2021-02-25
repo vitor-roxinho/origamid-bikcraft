@@ -158,7 +158,12 @@ main {
 
 .card-content h2 {
     margin: 15px 0 5px 0;
+   
+    font-family: Roboto;
+    font-size: 18px;
     font-weight: 500;
+    line-height: 30px;
+    text-align: center;
 }
 
 .card-content p {
