@@ -35,7 +35,7 @@
     font-family: 'Noto Serif', sans-serif;
     font-size: 18px;
     line-height: 25px;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
 
     color: #fff;
@@ -107,7 +107,7 @@
     font-family: 'Noto Serif', sans-serif;
     font-size: 18px;
     line-height: 25px;
-    font-style: italic;
+    font-style: normal;
 }
 
 .sobre-conteudo__historia {
