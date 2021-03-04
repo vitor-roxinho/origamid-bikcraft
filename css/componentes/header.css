@@ -37,3 +37,13 @@ header {
 
     color: #000;
 }
+
+.header-container nav ul li a:hover {
+    color: #fff;
+
+    transition: .1s;
+}
+
+.active {
+    color: #fff;
+}
