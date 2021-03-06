@@ -237,15 +237,50 @@
     resize: none;
 }
 
+.dados h1,
 .dados h2 {
     color: var(--yellow);
 }
 
-.dados h2:nth-child(2) {
-    padding-top: 35px;
+.dados h2{
+    padding-top: 55px;
+}
+
+.dados ul {
+    list-style-type: none;
+}
+
+.contato-bikcraft li + li,
+.dados-bikcraft li + li {
+    margin-top: 12px;   
 }
 
 .contato-bikcraft,
 .dados-bikcraft {
     color: #fff;
+}
+
+.contato-bikcraft li,
+.dados-bikcraft li {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+
+
+.dados-bikcraft li {
+    display: flex;
+    align-items: center;
+}
+
+.dados-bikcraft li + li {
+    width: 340px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.dados-bikcraft li:nth-child(even) {
+    background-color: #292929;
 }
