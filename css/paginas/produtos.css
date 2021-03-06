@@ -175,6 +175,7 @@
 
 .container-orcamento > h2 {
     color: var(--yellow);
+    padding-top: 40px;
 
     text-align: center;
 }
@@ -191,9 +192,60 @@
 }
 
 .orcamento-info {
-    padding-top: 40px;
+    padding: 40px 0;
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+}
+
+/* form */
+
+#form-orcamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff
+}
+
+#form-orcamento label {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: normal;
+
+    padding-top: 10px;
+}
+
+#form-orcamento input {
+    width: 400px;
+    height: 43px;
+    border: 3px solid var(--yellow);
+
+    background: none;
+
+    color: #fff;
+}
+
+#form-orcamento textarea {
+    width: 400px;
+    height: 130px;
+    border: 3px solid var(--yellow);
+    color: #fff;
+
+    background: none;
+    resize: none;
+}
+
+.dados h2 {
+    color: var(--yellow);
+}
+
+.dados h2:nth-child(2) {
+    padding-top: 35px;
+}
+
+.contato-bikcraft,
+.dados-bikcraft {
+    color: #fff;
 }
