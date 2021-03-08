@@ -1,0 +1,113 @@
+.portifolio-titulo {
+    width: 100%;
+    height: 160px;
+    background-image: url(../../img/fotos/portifolio/bg-portifolio.png);
+    background-size: 100% 100%;
+}
+
+.container-portifolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 40px 0
+}
+
+.container-portifolio h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #fff;
+}
+
+.container-portifolio hr {
+    width: 80px;
+    border: 2px solid #fff;
+}
+
+.container-portifolio p {
+    width: 360px;
+    margin: 12px;
+    
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    text-align: center;
+
+    color: #fff;
+}
+
+.portifolio-citacao {
+    margin: 40px auto;
+    width: 430px;
+    text-align: center;
+}
+
+.portifolio-citacao blockquote {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.portifolio-citacao cite {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    font-style: italic;
+}
+
+/* PORTIFOLIO */
+
+.portifolio {
+    width: 100%;
+
+    background-color: #000;
+}
+
+.portifolio-imagens {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.portifolio-imagens img {
+    width: 100%;
+    height: 280px;
+}
+.portifolio-imagens img:nth-child(3) {
+    grid-column: 1 / 3;
+    grid-row: 2;  
+}
+
+/* SLIDER */
+
+.portifolio-slider {
+    display: flex;
+    padding-top: 26px;
+}
+
+.slider {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+    background-color: #484b4d;
+}
+
+.slider + .slider {
+    margin-left: 20px;
+}
+
+.slider:hover {
+    cursor: pointer;
+}
+
+.active-slider {
+    background-color: var(--yellow);
+}

@@ -1,0 +1,60 @@
+/* PORTIFOLIO */
+
+.portifolio {
+    width: 100%;
+    height: 820px;
+
+    margin-top: 60px;
+
+    background-color: #000;
+}
+
+.container-portifolio h2 {
+    padding-top: 40px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    text-align: center;
+
+    color: var(--yellow)
+}
+
+.container-portifolio hr {
+    margin: 0 auto;
+    width: 80px;
+    border: 2px solid var(--yellow);
+}
+
+.container-portifolio p {
+    margin-top: 20px;
+    font-family: "Noto Serif",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    text-align: center;
+    color: #fff;
+}
+
+.container-portifolio a {
+    margin: 13px auto 0;
+}
+
+.portifolio-imagens {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.portifolio-imagens img {
+    width: 100%;
+    height: 280px;
+}
+.portifolio-imagens img:nth-child(3) {
+    grid-column: 1 / 3;
+    grid-row: 2;  
+}
