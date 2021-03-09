@@ -198,7 +198,7 @@
     justify-content: space-around;
 }
 
-/* form */
+/* FORMULARIO */
 
 #form-orcamento {
     display: flex;
@@ -216,6 +216,11 @@
 
     padding-top: 10px;
 }
+
+#form-orcamento label:nth-child(1) {
+    padding-top: 0;
+}
+
 
 #form-orcamento input {
     width: 400px;
