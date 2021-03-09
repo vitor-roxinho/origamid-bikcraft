@@ -230,6 +230,13 @@
     background: none;
 
     color: #fff;
+
+    padding-left: 10px;
+
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-style: normal;
 }
 
 #form-orcamento textarea {
@@ -240,6 +247,11 @@
 
     background: none;
     resize: none;
+
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-style: normal;
 }
 
 .dados h1,
