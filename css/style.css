@@ -108,6 +108,7 @@ img {
 
 .header_menu ul li a:hover {
 	color: #FFF;
+	transition: .2s;
 }
 
 .header_menu ul li a.menu_ativo {
