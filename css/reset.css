@@ -1,16 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+/* ==========================================================================
+   Reset
+   ========================================================================== */
 
-:root {
-    --yellow: #FEC63E;
+/**
+ * Remove anchor text-decoration
+ */ 
+
+a {
+	text-decoration: none;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
 }
 
-body {
-    overflow-x: hidden;
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
 }
