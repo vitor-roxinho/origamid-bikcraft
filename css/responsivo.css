@@ -38,6 +38,10 @@
         transition: .2s;
     }
 
+    .header_menu ul li a.menu_ativo {
+        border-color: #fff;
+    }
+
     /* introducao */
 
     .introducao {
@@ -45,5 +49,40 @@
         padding-top: 20px;
         background: url("../img/bg-mobile.jpg") no-repeat center;
     }
+
+    /* Introdução interna */
+
+    .introducao-interna {
+        margin-top: 0px;
+    }
+
+    /* Call */
+    .call {
+        padding-top: 10px;
+    }
+
+    /* Qualidade home */
+
+    .qualidade::after {
+        display: none;
+    }
+
+    /* Sobre */
+
+    .missao_sobre p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0px
+    }
+
+    .missao_sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
 }
+
+
+
 
